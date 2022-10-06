@@ -22,3 +22,12 @@ for name in fruitNames{
 //Part 8: Intro to array indexes
 print(fruitNames[1])
 
+//Part 9
+var priceyCars: [String]
+priceyCars = ["Mazda Cosmo", "Nissan R34", "Toyota 2000GT", "Lexus LFA", "Nissan Fairlady", "Acura NSX", "Lexus LC500", "Toyota GR Supra"]
+
+for name in priceyCars{
+    print(name + " is a very expensive car")
+}
+
+print(priceyCars[0])
